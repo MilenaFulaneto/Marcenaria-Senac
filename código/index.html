@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcenaria Senac — Móveis Planejados de Alto Padrão</title>
+    <meta name="description"
+        content="Marcenaria especializada em móveis planejados sob medida. Cozinhas, guarda-roupas, painéis e escritórios com design moderno e acabamento premium.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ══════ NAVBAR ══════ -->
+    <header class="bem-header">
+        <!-- TOP BAR -->
+        <div class="bem-header__top">
+            <div class="bem-container bem-header__top-flex">
+                <div class="bem-header__info">
+                    <span><i class="icon-mail"></i> contato@marcenariasenac.com.br</span>
+                    <span><i class="icon-map"></i> Av. das Indústrias, 450 — Polo Moveleiro</span>
+                </div>
+                <div class="bem-header__social">
+                    <!-- Facebook -->
+                    <a href="#" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987H7.898V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                        </svg>
+                    </a>
+                    <!-- WhatsApp -->
+                    <a href="#" onclick="whatsapp(); return false;" aria-label="WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="#" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIN NAVBAR -->
+        <nav class="bem-navbar">
+            <div class="bem-container bem-navbar__flex">
+                <a href="#" class="bem-navbar__brand">MARCENARIA<span>SENAC</span></a>
+                
+                <button class="bem-navbar__toggle" id="nav-toggle">☰</button>
+                
+                <ul class="bem-navbar__menu" id="nav-menu">
+                    <li><a href="#hero" class="bem-navbar__link">Home</a></li>
+                    <li><a href="#servicos" class="bem-navbar__link">Serviços</a></li>
+                    <li><a href="#portfolio" class="bem-navbar__link">Projetos</a></li>
+                    <li><a href="#sobre" class="bem-navbar__link">Sobre</a></li>
+                    <li><a href="#depoimentos" class="bem-navbar__link">Depoimentos</a></li>
+                    <li><a href="#faq" class="bem-navbar__link">FAQ</a></li>
+                    <li><a href="#contato" class="bem-navbar__link">Contato</a></li>
+                </ul>
+
+                <div class="bem-navbar__cta">
+                    <a href="#" onclick="whatsapp()" class="bem-btn-whatsapp">
+                        <span>Falar no WhatsApp</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ══════ HERO ══════ -->
+        <section class="bem-hero" id="hero">
+            <div class="bem-hero__titulo">
+                <h1>Móveis <span>Planejados</span> para seu Espaço</h1>
+                <p>Design moderno, acabamento de qualidade e atenção aos mínimos detalhes. Transformamos ambientes com
+                    móveis sob medida que combinam beleza e funcionalidade.</p>
+                <div style="display:flex; gap:15px; justify-content:center; flex-wrap:wrap;">
+                    <a href="#contato" class="bem-btn bem-btn--primary">Agendar Orçamento</a>
+                    <a href="#portfolio" class="bem-btn bem-btn--outline">Ver Portfólio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════ SERVIÇOS ══════ -->
+        <section class="secao-escura" id="servicos">
+            <div class="bem-container revelar">
+                <h2 class="bem-titulo-h2">Nossos Serviços</h2>
+                <div class="bem-grid-auto">
+                    <div class="bem-card">
+                        <img class="bem-card__image"
+                            src="https://lirp.cdn-website.com/96484850/dms3rep/multi/opt/12.08--640w.jpg"
+                            alt="Cozinha Planejada">
+                        <div class="bem-card__body">
+                            <h3 class="bem-card__title">Cozinhas Planejadas</h3>
+                            <p>Projetos funcionais que aproveitam cada centímetro do seu espaço, com materiais de
+                                primeira linha e design personalizado.</p>
+                        </div>
+                        <a href="#contato" class="bem-btn bem-btn--primary">Solicitar Orçamento</a>
+                    </div>
+
+                    <div class="bem-card">
+                        <img class="bem-card__image"
+                            src="https://suamelhordecoracao.com.br/wp-content/uploads/2024/12/modelos-de-guarda-roupas-planejado-dicas-para-organizar.webp"
+                            alt="Guarda-roupa Planejado">
+                        <div class="bem-card__body">
+                            <h3 class="bem-card__title">Guarda-Roupas</h3>
+                            <p>Soluções inteligentes de organização com portas de correr, gavetas e divisórias sob
+                                medida para o seu quarto.</p>
+                        </div>
+                        <a href="#contato" class="bem-btn bem-btn--primary">Solicitar Orçamento</a>
+                    </div>
+
+                    <div class="bem-card">
+                        <img class="bem-card__image"
+                            src="https://s2.glbimg.com/1hUbosfXauNShDPjc6szrtCrbkc=/620x455/e.glbimg.com/og/ed/f/original/2020/04/28/estante-de-livros-david_bastos_4014ok.jpg"
+                            alt="Painéis e Estantes">
+                        <div class="bem-card__body">
+                            <h3 class="bem-card__title">Painéis e Estantes</h3>
+                            <p>Painéis para TV, estantes modulares e nichos decorativos que transformam a sala em um
+                                ambiente elegante.</p>
+                        </div>
+                        <a href="#contato" class="bem-btn bem-btn--primary">Solicitar Orçamento</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════ PORTFÓLIO (GALERIA) ══════ -->
+        <section class="secao-clara" id="portfolio">
+            <div class="bem-container revelar">
+                <h2 class="bem-titulo-h2">Galeria de Trabalhos</h2>
+                <div class="galeria">
+                    <img src="https://s2.glbimg.com/ukEgmzL2aUXGoLd0sDknHuiC16c=/620x850/e.glbimg.com/og/ed/f/original/2020/04/28/estante-bianca_da_hora___estante_com_bar___foto_1.jpg"
+                        alt="Projeto 1" onclick="abrirImagem(this.src)">
+                    <img src="https://s2.glbimg.com/UuigsJh80wl0LTUiyZI1_ciG2GU=/620x455/e.glbimg.com/og/ed/f/original/2020/04/28/estante-bianca_da_hora___estante.jpg"
+                        alt="Projeto 2" onclick="abrirImagem(this.src)">
+                    <img src="https://s2.glbimg.com/bymOopjsCkA9Ye0K5dcr1s5yOZs=/620x455/e.glbimg.com/og/ed/f/original/2020/04/28/quarto-planejado-branco-e-de-madeira-duda_senna_altoboavista0082.jpg"
+                        alt="Projeto 3" onclick="abrirImagem(this.src)">
+                    <img src="https://s2.glbimg.com/VKamQqZ_lChG07eBkJfjfyRkzjk=/620x850/e.glbimg.com/og/ed/f/original/2020/04/28/escritorio-planejado-duda_senna_manuoristanio2523.jpg"
+                        alt="Projeto 4" onclick="abrirImagem(this.src)">
+                    <img src="https://qtmov.com.br/blog/wp-content/uploads/2024/08/madeira-moveis-planejados.jpg"
+                        alt="Projeto 5 - Bancada de Madeira" onclick="abrirImagem(this.src)">
+                    <img src="https://http2.mlstatic.com/D_996754-MLB93454667443_092025-C.jpg"
+                        alt="Projeto 6 - Mesa de Escritório" onclick="abrirImagem(this.src)">
+                    <img src="https://bartzen.com.br/wp-content/uploads/capa-blog-btz-lamina-de-madeira-a-escolha-ideal-para-moveis-planejados-2.jpg"
+                        alt="Projeto 7 - Painel com Lareira" onclick="abrirImagem(this.src)">
+                    <img src="https://moveis.personareinteriores.com.br/imagens/moveis-planejados-madeira-macica-orcar.jpg"
+                        alt="Projeto 8 - Closet Planejado" onclick="abrirImagem(this.src)">
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════ PROJETOS (ANTES/DEPOIS) ══════ -->
+        <section class="secao-escura" id="projetos">
+            <div class="bem-container revelar">
+                <h2 class="bem-titulo-h2">Transformações de Ambientes</h2>
+                <p style="text-align:center; max-width:600px; margin:0 auto 40px;">Arraste o marcador central para
+                    comparar o espaço original com o resultado final do nosso projeto planejado.</p>
+
+                <!-- Comparação Principal -->
+                <div class="img-comp-container">
+                    <!-- Base: DEPOIS -->
+                    <div class="img-comp-img">
+                        <img src="reforma_depois.jpg" alt="Cozinha Depois">
+                        <span class="img-comp-label img-comp-label--after">Depois</span>
+                    </div>
+                    <!-- Sobreposição: ANTES -->
+                    <div class="img-comp-img img-comp-overlay">
+                        <img src="reforma_antes.jpg" alt="Cozinha Antes">
+                        <span class="img-comp-label img-comp-label--before">Antes</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LIGHTBOX -->
+        <div id="lightbox" onclick="fecharImagem()">
+            <img id="imgAmpliada" alt="Imagem ampliada">
+        </div>
+
+        <!-- ══════ SOBRE ══════ -->
+        <section class="secao-clara" id="sobre">
+            <div class="bem-container revelar">
+                <div class="sobre-grid">
+                    <div class="sobre-img">
+                        <img src="https://www.paulomauro.com.br/wp-content/uploads/2023/02/paulomauro-blog-capa-como-economizar-em-moveis-planejados.jpg"
+                            alt="Oficina de marcenaria">
+                    </div>
+                    <div class="sobre-texto">
+                        <h2>Tradição em <span>Marcenaria</span></h2>
+                        <p>Somos especialistas em transformar madeira em arte funcional. Com mais de 10 anos de
+                            experiência, nossa missão é criar ambientes que inspirem e facilitem o seu dia a dia.</p>
+                        <div class="sobre-stats">
+                            <div class="stat">
+                                <span class="stat__num">250+</span>
+                                <span class="stat__label">Projetos</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__num">12</span>
+                                <span class="stat__label">Anos</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat__num">100%</span>
+                                <span class="stat__label">Garantia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════ PREÇOS ══════ -->
+        <section class="secao-escura" id="precos">
+            <div class="bem-container revelar">
+                <h2 class="bem-titulo-h2">Planos Sugeridos</h2>
+                <div class="bem-grid-3">
+                    <ul class="price">
+                        <li class="header">Compacto</li>
+                        <li class="preco">R$ 2.900</li>
+                        <li>1 Ambiente Pequeno</li>
+                        <li>Projeto 2D incluso</li>
+                        <li>Ferragens Standard</li>
+                        <li class="btn-preco"><a href="#contato">Solicitar</a></li>
+                    </ul>
+                    <ul class="price price--destaque">
+                        <li class="header">Premium</li>
+                        <li class="preco">R$ 7.500</li>
+                        <li>Até 3 Ambientes</li>
+                        <li>Projeto 3D Realista</li>
+                        <li>Ferragens Amortecidas</li>
+                        <li class="btn-preco"><a href="#contato">Solicitar</a></li>
+                    </ul>
+                    <ul class="price">
+                        <li class="header">Luxury</li>
+                        <li class="preco">Sob Consulta</li>
+                        <li>Residência Completa</li>
+                        <li>Consultoria Design</li>
+                        <li>Materiais Exclusivos</li>
+                        <li class="btn-preco"><a href="#contato">Solicitar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════ DEPOIMENTOS ══════ -->
+        <section class="secao-clara" id="depoimentos">
+            <div class="bem-container revelar">
+                <h2 class="bem-titulo-h2">Quem Confiou e Aprovou a Marcenaria?</h2>
+                <div class="depoimentos-carrossel-wrapper">
+                    <div class="depoimentos-carrossel-track">
+
+                        <!-- Depoimento 1 -->
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"Superou todas as minhas expectativas. A equipe foi extremamente profissional desde o projeto 3D até a instalação final da nossa cozinha."</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">MC</div>
+                                <div>
+                                    <h4>Mariana Costa</h4>
+                                    <span>Cozinha Planejada</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Depoimento 2 -->
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"O acabamento é simplesmente impecável. Usei para fazer meu escritório e agora não quero trabalhar em outro lugar. Recomendo muito!"</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">RL</div>
+                                <div>
+                                    <h4>Ricardo Lima</h4>
+                                    <span>Home Office</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Depoimento 3 -->
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"Pontualidade e qualidade definem. O guarda-roupa ficou exatamente como eu imaginei, com aproveitamento total do espaço."</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">AF</div>
+                                <div>
+                                    <h4>Ana Ferreira</h4>
+                                    <span>Dormitório Casal</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Depoimento 4 -->
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"Fizeram o closet dos meus sonhos! Cada detalhe foi pensado com cuidado. A organização ficou perfeita e o acabamento em madeira é lindo."</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">PS</div>
+                                <div>
+                                    <h4>Patricia Souza</h4>
+                                    <span>Closet Planejado</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Depoimento 5 -->
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"Contratei para reformar toda a minha sala. O painel de TV com madeira ficou incrível, transformou completamente o ambiente. Parabéns ao time!"</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">JM</div>
+                                <div>
+                                    <h4>Jorge Mendes</h4>
+                                    <span>Painel de TV</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Depoimento 6 -->
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"Atendimento impecável do início ao fim. Entregaram antes do prazo e o resultado da minha cozinha planejada ficou acima do esperado!"</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">LB</div>
+                                <div>
+                                    <h4>Luciana Braga</h4>
+                                    <span>Cozinha Planejada</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- === CÓPIAS PARA LOOPING INFINITO === -->
+
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"Superou todas as minhas expectativas. A equipe foi extremamente profissional desde o projeto 3D até a instalação final da nossa cozinha."</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">MC</div>
+                                <div>
+                                    <h4>Mariana Costa</h4>
+                                    <span>Cozinha Planejada</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"O acabamento é simplesmente impecável. Usei para fazer meu escritório e agora não quero trabalhar em outro lugar. Recomendo muito!"</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">RL</div>
+                                <div>
+                                    <h4>Ricardo Lima</h4>
+                                    <span>Home Office</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"Pontualidade e qualidade definem. O guarda-roupa ficou exatamente como eu imaginei, com aproveitamento total do espaço."</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">AF</div>
+                                <div>
+                                    <h4>Ana Ferreira</h4>
+                                    <span>Dormitório Casal</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"Fizeram o closet dos meus sonhos! Cada detalhe foi pensado com cuidado. A organização ficou perfeita e o acabamento em madeira é lindo."</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">PS</div>
+                                <div>
+                                    <h4>Patricia Souza</h4>
+                                    <span>Closet Planejado</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"Contratei para reformar toda a minha sala. O painel de TV com madeira ficou incrível, transformou completamente o ambiente. Parabéns ao time!"</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">JM</div>
+                                <div>
+                                    <h4>Jorge Mendes</h4>
+                                    <span>Painel de TV</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bem-card-depoimento">
+                            <div class="depoimento-estrelas">★★★★★</div>
+                            <p class="depoimento-texto">"Atendimento impecável do início ao fim. Entregaram antes do prazo e o resultado da minha cozinha planejada ficou acima do esperado!"</p>
+                            <div class="depoimento-autor">
+                                <div class="depoimento-avatar">LB</div>
+                                <div>
+                                    <h4>Luciana Braga</h4>
+                                    <span>Cozinha Planejada</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════ FAQ ══════ -->
+        <section class="secao-clara" id="faq">
+            <div class="bem-container revelar">
+                <h2 class="bem-titulo-h2">Dúvidas Frequentes</h2>
+                <div class="faq-accordion">
+                    <div class="faq-item">
+                        <button class="faq-pergunta" aria-expanded="false">
+                            <span>Qual o prazo de entrega?</span>
+                            <svg class="faq-icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq-resposta">
+                            <p>Nosso prazo padrão é de 35 a 45 dias úteis após a aprovação final do projeto executivo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-pergunta" aria-expanded="false">
+                            <span>Vocês cobram pelo orçamento?</span>
+                            <svg class="faq-icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq-resposta">
+                            <p>Não! A primeira visita e o orçamento preliminar são totalmente gratuitos e sem
+                                compromisso.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-pergunta" aria-expanded="false">
+                            <span>Posso escolher os materiais e acabamentos?</span>
+                            <svg class="faq-icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq-resposta">
+                            <p>Sim! Trabalhamos com uma ampla variedade de MDF, compensados, ferragens e puxadores. Durante o projeto, você poderá escolher os materiais que melhor combinam com seu estilo.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-pergunta" aria-expanded="false">
+                            <span>Vocês oferecem garantia nos móveis?</span>
+                            <svg class="faq-icone" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="faq-resposta">
+                            <p>Com certeza. Todos os nossos móveis planejados possuem garantia contra defeitos de fabricação e problemas com ferragens, proporcionando total tranquilidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════ EQUIPE (CARROSSEL) ══════ -->
+        <section class="secao-escura" id="equipe">
+            <div class="bem-container revelar">
+                <h2 class="bem-titulo-h2">Nossa Equipe</h2>
+                <div class="carrossel-wrapper">
+                    <div class="carrossel-track">
+                        <!-- Membro 1 -->
+                        <div class="bem-card--equipe">
+                            <img class="bem-card__image"
+                                src="trabalhador1.webp"
+                                alt="Marceneiro 1">
+                            <div class="bem-card__info-panel">
+                                <h3>Ricardo Silva</h3>
+                                <p>Mestre Marceneiro</p>
+                            </div>
+                        </div>
+                        <!-- Membro 2 -->
+                        <div class="bem-card--equipe">
+                            <img class="bem-card__image"
+                                src="trabalhador2.jpg"
+                                alt="Projetista">
+                            <div class="bem-card__info-panel">
+                                <h3>Carlos Monteiro</h3>
+                                <p>Arquiteto / Projetista</p>
+                            </div>
+                        </div>
+                        <!-- Membro 3 -->
+                        <div class="bem-card--equipe">
+                            <img class="bem-card__image"
+                                src="trabalhador3.webp"
+                                alt="Instalador">
+                            <div class="bem-card__info-panel">
+                                <h3>Marcos Lima</h3>
+                                <p>Chefe de Instalação</p>
+                            </div>
+                        </div>
+                        <!-- Membro 4 -->
+                        <div class="bem-card--equipe">
+                            <img class="bem-card__image"
+                                src="trabalhador4.jpg"
+                                alt="Designer">
+                            <div class="bem-card__info-panel">
+                                <h3>Mauricio Santos</h3>
+                                <p>Marceneiro</p>
+                            </div>
+                        </div>
+                        <!-- Duplicando para efeito infinito -->
+                        <div class="bem-card--equipe">
+                            <img class="bem-card__image"
+                                src="trabalhador1.webp"
+                                alt="Marceneiro 1">
+                            <div class="bem-card__info-panel">
+                                <h3>Ricardo Silva</h3>
+                                <p>Mestre Marceneiro</p>
+                            </div>
+                        </div>
+                        <div class="bem-card--equipe">
+                            <img class="bem-card__image"
+                                src="trabalhador2.jpg"
+                                alt="Projetista">
+                            <div class="bem-card__info-panel">
+                                <h3>Carlos Monteiro</h3>
+                                <p>Arquiteto / Projetista</p>
+                            </div>
+                        </div>
+                        <div class="bem-card--equipe">
+                            <img class="bem-card__image"
+                                src="trabalhador3.webp"
+                                alt="Instalador">
+                            <div class="bem-card__info-panel">
+                                <h3>Marcos Lima</h3>
+                                <p>Chefe de Instalação</p>
+                            </div>
+                        </div>
+                        <div class="bem-card--equipe">
+                            <img class="bem-card__image"
+                                src="trabalhador4.jpg"
+                                alt="Designer">
+                            <div class="bem-card__info-panel">
+                                <h3>Mauricio Santos</h3>
+                                <p>Marceneiro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════ CONTATO ══════ -->
+        <section class="secao-clara" id="contato">
+            <div class="bem-container revelar">
+                <h2 class="bem-titulo-h2">Agende uma Visita</h2>
+                <div class="contato-layout">
+                    <div class="contato-info">
+                        <h3 class="contato-info-titulo">Contato Direto</h3>
+                        <div class="contato-info-item">
+                            <div class="contato-info-icone">📱</div>
+                            <div class="contato-info-texto">
+                                <h4>WhatsApp</h4>
+                                <p><a href="#" onclick="whatsapp()">Falar Agora</a></p>
+                            </div>
+                        </div>
+                        <div class="contato-info-item">
+                            <div class="contato-info-icone">📍</div>
+                            <div class="contato-info-texto">
+                                <h4>Localização</h4>
+                                <p>Av. das Indústrias, 450 — Polo Moveleiro</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contato-form-wrapper">
+                        <form class="bem-form" id="form-contato">
+                            <div class="bem-form__group">
+                                <label class="bem-form__label">Nome Completo</label>
+                                <input type="text" class="bem-form__input" name="from_name" placeholder="Ex: João Silva" required>
+                            </div>
+                            <div class="bem-form__group">
+                                <label class="bem-form__label">Telefone</label>
+                                <input type="tel" class="bem-form__input" name="phone" placeholder="(00) 00000-0000" required>
+                            </div>
+                            <div class="bem-form__group">
+                                <label class="bem-form__label">Mensagem</label>
+                                <textarea class="bem-form__textarea" name="message"
+                                    placeholder="Descreva brevemente o que você precisa..."></textarea>
+                            </div>
+                            <button type="submit" class="bem-btn bem-btn--primary">Enviar Pedido</button>
+                        </form>
+                        <div class="form-sucesso" id="form-sucesso">
+                            <h4>Recebemos seu contato!</h4>
+                            <p>Nossa equipe entrará em contato em menos de 24h.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ══════ FOOTER ══════ -->
+    <footer>
+        <span class="brand">MARCENARIA SENAC</span>
+        <p class="copy">© 2026 SENAC - Web Designer</p>
+    </footer>
+
+    <!-- Botão WhatsApp -->
+    <button class="whatsapp-float" onclick="whatsapp()">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
